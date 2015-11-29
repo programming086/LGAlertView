@@ -1,18 +1,51 @@
 # LGAlertView
 
-Customizable implementation of UIAlertView.
+Customizable implementation of UIAlertViewController, UIAlertView and UIActionSheet. All in one.
+You can customize every detail. Make AlertView of your dream! :)
 
 ## Preview
 
-<img src="https://raw.githubusercontent.com/Friend-LGA/ReadmeFiles/master/LGAlertView/Preview.gif" width="230"/>
-<img src="https://raw.githubusercontent.com/Friend-LGA/ReadmeFiles/master/LGAlertView/1.png" width="230"/>
-<img src="https://raw.githubusercontent.com/Friend-LGA/ReadmeFiles/master/LGAlertView/2.png" width="230"/>
-<img src="https://raw.githubusercontent.com/Friend-LGA/ReadmeFiles/master/LGAlertView/3.png" width="230"/>
-<img src="https://raw.githubusercontent.com/Friend-LGA/ReadmeFiles/master/LGAlertView/4.png" width="230"/>
-<img src="https://raw.githubusercontent.com/Friend-LGA/ReadmeFiles/master/LGAlertView/5.png" width="230"/>
-<img src="https://raw.githubusercontent.com/Friend-LGA/ReadmeFiles/master/LGAlertView/6.png" width="230"/>
-<img src="https://raw.githubusercontent.com/Friend-LGA/ReadmeFiles/master/LGAlertView/7.png" width="230"/>
-<img src="https://raw.githubusercontent.com/Friend-LGA/ReadmeFiles/master/LGAlertView/8.png" width="230"/>
+### Default Alert View Style
+
+<img src="https://raw.githubusercontent.com/Friend-LGA/ReadmeFiles/master/LGAlertView/Default_Alert_View_Style/Preview.gif" width="226"/>
+<img src="https://raw.githubusercontent.com/Friend-LGA/ReadmeFiles/master/LGAlertView/Default_Alert_View_Style/1.png" width="226"/>
+<img src="https://raw.githubusercontent.com/Friend-LGA/ReadmeFiles/master/LGAlertView/Default_Alert_View_Style/2.png" width="226"/>
+<img src="https://raw.githubusercontent.com/Friend-LGA/ReadmeFiles/master/LGAlertView/Default_Alert_View_Style/3.png" width="226"/>
+<img src="https://raw.githubusercontent.com/Friend-LGA/ReadmeFiles/master/LGAlertView/Default_Alert_View_Style/4.png" width="226"/>
+<img src="https://raw.githubusercontent.com/Friend-LGA/ReadmeFiles/master/LGAlertView/Default_Alert_View_Style/5.png" width="226"/>
+<img src="https://raw.githubusercontent.com/Friend-LGA/ReadmeFiles/master/LGAlertView/Default_Alert_View_Style/6.png" width="226"/>
+<img src="https://raw.githubusercontent.com/Friend-LGA/ReadmeFiles/master/LGAlertView/Default_Alert_View_Style/7.png" width="226"/>
+<img src="https://raw.githubusercontent.com/Friend-LGA/ReadmeFiles/master/LGAlertView/Default_Alert_View_Style/8.png" width="226"/>
+<img src="https://raw.githubusercontent.com/Friend-LGA/ReadmeFiles/master/LGAlertView/Default_Alert_View_Style/9.png" width="226"/>
+<img src="https://raw.githubusercontent.com/Friend-LGA/ReadmeFiles/master/LGAlertView/Default_Alert_View_Style/10.png" width="226"/>
+
+### Default Action Sheet Style
+
+<img src="https://raw.githubusercontent.com/Friend-LGA/ReadmeFiles/master/LGAlertView/Default_Action_Sheet_Style/Preview.gif" width="226"/>
+<img src="https://raw.githubusercontent.com/Friend-LGA/ReadmeFiles/master/LGAlertView/Default_Action_Sheet_Style/1.png" width="226"/>
+<img src="https://raw.githubusercontent.com/Friend-LGA/ReadmeFiles/master/LGAlertView/Default_Action_Sheet_Style/2.png" width="226"/>
+<img src="https://raw.githubusercontent.com/Friend-LGA/ReadmeFiles/master/LGAlertView/Default_Action_Sheet_Style/3.png" width="226"/>
+<img src="https://raw.githubusercontent.com/Friend-LGA/ReadmeFiles/master/LGAlertView/Default_Action_Sheet_Style/4.png" width="226"/>
+<img src="https://raw.githubusercontent.com/Friend-LGA/ReadmeFiles/master/LGAlertView/Default_Action_Sheet_Style/5.png" width="226"/>
+<img src="https://raw.githubusercontent.com/Friend-LGA/ReadmeFiles/master/LGAlertView/Default_Action_Sheet_Style/6.png" width="226"/>
+
+### Custom Alert View Styles
+
+<img src="https://raw.githubusercontent.com/Friend-LGA/ReadmeFiles/master/LGAlertView/Custom_Alert_View_Styles/1.png" width="226"/>
+<img src="https://raw.githubusercontent.com/Friend-LGA/ReadmeFiles/master/LGAlertView/Custom_Alert_View_Styles/2.png" width="226"/>
+<img src="https://raw.githubusercontent.com/Friend-LGA/ReadmeFiles/master/LGAlertView/Custom_Alert_View_Styles/3.png" width="226"/>
+<img src="https://raw.githubusercontent.com/Friend-LGA/ReadmeFiles/master/LGAlertView/Custom_Alert_View_Styles/4.png" width="226"/>
+<img src="https://raw.githubusercontent.com/Friend-LGA/ReadmeFiles/master/LGAlertView/Custom_Alert_View_Styles/5.png" width="226"/>
+<img src="https://raw.githubusercontent.com/Friend-LGA/ReadmeFiles/master/LGAlertView/Custom_Alert_View_Styles/6.png" width="226"/>
+
+### Custom Action Sheet Styles
+
+<img src="https://raw.githubusercontent.com/Friend-LGA/ReadmeFiles/master/LGAlertView/Custom_Action_Sheet_Styles/1.png" width="226"/>
+<img src="https://raw.githubusercontent.com/Friend-LGA/ReadmeFiles/master/LGAlertView/Custom_Action_Sheet_Styles/2.png" width="226"/>
+<img src="https://raw.githubusercontent.com/Friend-LGA/ReadmeFiles/master/LGAlertView/Custom_Action_Sheet_Styles/3.png" width="226"/>
+<img src="https://raw.githubusercontent.com/Friend-LGA/ReadmeFiles/master/LGAlertView/Custom_Action_Sheet_Styles/4.png" width="226"/>
+<img src="https://raw.githubusercontent.com/Friend-LGA/ReadmeFiles/master/LGAlertView/Custom_Action_Sheet_Styles/5.png" width="226"/>
+<img src="https://raw.githubusercontent.com/Friend-LGA/ReadmeFiles/master/LGAlertView/Custom_Action_Sheet_Styles/6.png" width="226"/>
 
 ## Installation
 
@@ -22,13 +55,21 @@ Customizable implementation of UIAlertView.
 
 ### With CocoaPods
 
-[CocoaPods](http://cocoapods.org/) is a dependency manager for Objective-C, which automates and simplifies the process of using 3rd-party libraries in your projects. See the "Get Started" section for more details.
+CocoaPods is a dependency manager for Objective-C, which automates and simplifies the process of using 3rd-party libraries in your projects. To install with cocoaPods, follow the "Get Started" section on [CocoaPods](https://cocoapods.org/).
 
 #### Podfile
-
-```
+```ruby
 platform :ios, '6.0'
-pod 'LGAlertView', '~> 1.0.0'
+pod 'LGAlertView', '~> 2.0.0'
+```
+
+### With Carthage
+
+Carthage is a lightweight dependency manager for Swift and Objective-C. It leverages CocoaTouch modules and is less invasive than CocoaPods. To install with carthage, follow the instruction on [Carthage](https://github.com/Carthage/Carthage/).
+
+#### Cartfile
+```
+github "Friend-LGA/LGAlertView" ~> 2.0.0
 ```
 
 ## Usage
@@ -46,44 +87,48 @@ You have several methods for initialization:
 ```objective-c
 - (instancetype)initWithTitle:(NSString *)title
                       message:(NSString *)message
+                        style:(LGAlertViewStyle)style
                  buttonTitles:(NSArray *)buttonTitles
             cancelButtonTitle:(NSString *)cancelButtonTitle
        destructiveButtonTitle:(NSString *)destructiveButtonTitle;
 
-- (instancetype)initWithViewStyleWithTitle:(NSString *)title
+- (instancetype)initWithViewAndTitle:(NSString *)title
+                             message:(NSString *)message
+                               style:(LGAlertViewStyle)style
+                                view:(UIView *)view
+                        buttonTitles:(NSArray *)buttonTitles
+                   cancelButtonTitle:(NSString *)cancelButtonTitle
+              destructiveButtonTitle:(NSString *)destructiveButtonTitle;
+
+- (instancetype)initWithActivityIndicatorAndTitle:(NSString *)title
+                                          message:(NSString *)message
+                                            style:(LGAlertViewStyle)style
+                                     buttonTitles:(NSArray *)buttonTitles
+                                cancelButtonTitle:(NSString *)cancelButtonTitle
+                           destructiveButtonTitle:(NSString *)destructiveButtonTitle;
+
+- (instancetype)initWithProgressViewAndTitle:(NSString *)title
+                                     message:(NSString *)message
+                                       style:(LGAlertViewStyle)style
+                           progressLabelText:(NSString *)progressLabelText
+                                buttonTitles:(NSArray *)buttonTitles
+                           cancelButtonTitle:(NSString *)cancelButtonTitle
+                      destructiveButtonTitle:(NSString *)destructiveButtonTitle;
+
+- (instancetype)initWithTextFieldsAndTitle:(NSString *)title
                                    message:(NSString *)message
-                                      view:(UIView *)view
+                        numberOfTextFields:(NSUInteger)numberOfTextFields
+                    textFieldsSetupHandler:(void(^)(UITextField *textField, NSUInteger index))textFieldsSetupHandler
                               buttonTitles:(NSArray *)buttonTitles
                          cancelButtonTitle:(NSString *)cancelButtonTitle
                     destructiveButtonTitle:(NSString *)destructiveButtonTitle;
-
-- (instancetype)initWithActivityIndicatorStyleWithTitle:(NSString *)title
-                                                message:(NSString *)message
-                                           buttonTitles:(NSArray *)buttonTitles
-                                      cancelButtonTitle:(NSString *)cancelButtonTitle
-                                 destructiveButtonTitle:(NSString *)destructiveButtonTitle;
-
-- (instancetype)initWithProgressViewStyleWithTitle:(NSString *)title
-                                           message:(NSString *)message
-                                 progressLabelText:(NSString *)progressLabelText
-                                      buttonTitles:(NSArray *)buttonTitles
-                                 cancelButtonTitle:(NSString *)cancelButtonTitle
-                            destructiveButtonTitle:(NSString *)destructiveButtonTitle;
-
-- (instancetype)initWithTextFieldsStyleWithTitle:(NSString *)title
-                                         message:(NSString *)message
-                              numberOfTextFields:(NSUInteger)numberOfTextFields
-                          textFieldsSetupHandler:(void(^)(UITextField *textField, NSUInteger index))textFieldsSetupHandler
-                                    buttonTitles:(NSArray *)buttonTitles
-                               cancelButtonTitle:(NSString *)cancelButtonTitle
-                          destructiveButtonTitle:(NSString *)destructiveButtonTitle;
 ```
 
 More init methods you can find in [LGAlertView.h](https://github.com/Friend-LGA/LGAlertView/blob/master/LGAlertView/LGAlertView.h)
 
 ### Handle actions
 
-To handle actions you can use initialization methods with blocks or delegate, or implement it after initialization.
+To handle actions you can use blocks, delegate, or notifications:
 
 #### Delegate
 
@@ -113,13 +158,14 @@ To handle actions you can use initialization methods with blocks or delegate, or
 
 #### Notifications
 
-Here is also some notifications, that you can add to NSNotificationsCenter:
-
 ```objective-c
 kLGAlertViewWillShowNotification;
 kLGAlertViewWillDismissNotification;
 kLGAlertViewDidShowNotification;
 kLGAlertViewDidDismissNotification;
+kLGAlertViewActionNotification;
+kLGAlertViewCancelNotification;
+kLGAlertViewDestructiveNotification;
 ```
 
 ### More

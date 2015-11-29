@@ -1,5 +1,5 @@
 //
-//  LGAlertViewShared.h
+//  LGAlertViewWindow.h
 //  LGAlertView
 //
 //
@@ -27,4 +27,8 @@
 //  SOFTWARE.
 //
 
-static CGFloat const kLGAlertViewPaddingW = 10.f;
+#import <UIKit/UIKit.h>
+
+@interface LGAlertViewWindow : UIWindow
+
+@end

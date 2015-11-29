@@ -46,13 +46,15 @@
     if (self)
     {
         self.selectionStyle = UITableViewCellSelectionStyleNone;
-        
+
         _titleLabel = [UILabel new];
         _titleLabel.backgroundColor = [UIColor clearColor];
         [self addSubview:_titleLabel];
-        
+
         _separatorView = [UIView new];
         [self addSubview:_separatorView];
+
+        _enabled = YES;
     }
     return self;
 }
@@ -60,7 +62,7 @@
 - (void)layoutSubviews
 {
     [super layoutSubviews];
-    
+
     _titleLabel.text = _title;
     _titleLabel.textAlignment = _textAlignment;
     _titleLabel.font = _font;
@@ -68,20 +70,20 @@
     _titleLabel.lineBreakMode = _lineBreakMode;
     _titleLabel.adjustsFontSizeToFitWidth = _adjustsFontSizeToFitWidth;
     _titleLabel.minimumScaleFactor = _minimumScaleFactor;
-    
+
     CGRect titleLabelFrame = CGRectMake(10.f, 0.f, self.frame.size.width-20.f, self.frame.size.height);
-    
+
     if ([UIScreen mainScreen].scale == 1.f)
         titleLabelFrame = CGRectIntegral(titleLabelFrame);
-    
+
     _titleLabel.frame = titleLabelFrame;
-    
+
     if (self.isSeparatorVisible)
     {
         _separatorView.hidden = NO;
-        
+
         _separatorView.backgroundColor = _separatorColor_;
-        
+
         _separatorView.frame = CGRectMake(0.f, self.frame.size.height-kLGAlertViewSeparatorHeight, self.frame.size.width, kLGAlertViewSeparatorHeight);
     }
     else _separatorView.hidden = YES;
@@ -90,7 +92,7 @@
 - (void)setHighlighted:(BOOL)highlighted animated:(BOOL)animated
 {
     [super setHighlighted:highlighted animated:animated];
-    
+
     if (highlighted)
     {
         _titleLabel.textColor = _titleColorHighlighted;
@@ -98,15 +100,14 @@
     }
     else
     {
-        _titleLabel.textColor = _titleColor;
-        self.backgroundColor = [UIColor clearColor];
+        [self setEnabled:_enabled];
     }
 }
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated
 {
     [super setSelected:selected animated:animated];
-    
+
     if (selected)
     {
         _titleLabel.textColor = _titleColorHighlighted;
@@ -114,8 +115,25 @@
     }
     else
     {
+        [self setEnabled:_enabled];
+    }
+}
+
+- (void)setEnabled:(BOOL)enabled
+{
+    _enabled = enabled;
+
+    self.userInteractionEnabled = enabled;
+
+    if (enabled)
+    {
         _titleLabel.textColor = _titleColor;
-        self.backgroundColor = [UIColor clearColor];
+        self.backgroundColor = _backgroundColorNormal;
+    }
+    else
+    {
+        _titleLabel.textColor = _titleColorDisabled;
+        self.backgroundColor = _backgroundColorDisabled;
     }
 }
 
